@@ -11,6 +11,11 @@ import FinishSrceen from "./FinishScreen";
 import Timer from "./Timer";
 import Footer from "./Footer";
 
+// Possible abilityes to upgrade:
+// -Allowing the user to filter for the difficutly of questions
+// -Upload the highscore of the quiz to the fake API
+// -Storing all the answers in some array, go back and forth in time
+
 const SECS_PER_QUESTION = 30;
 
 const initialState = {
